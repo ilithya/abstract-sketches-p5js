@@ -19,5 +19,17 @@ Follow the instructions in the [DOCUMENTATION](DOCUMENTATION.markdown).
 Absolutely! You can use [p5.js editor](https://editor.p5js.org/) or any other you'd like to.  
 Find the code to work with here [src/script.js](./src/script.js).
 
+# Resources
+- [Get started with p5.js](https://p5js.org/get-started/)
+- [P5.js references](https://p5js.org/reference/)
+- [P5.js examples](https://p5js.org/examples/)
+
+# Follow
+I live at [ilithya.rocks](https://www.ilithya.rocks/)
+
+**Social places**
+- [Instagram](https://www.instagram.com/ilithya_net/)
+- [Twitter](https://twitter.com/ilithya_net)
+
 # License
 Read details in the [MIT LICENSE](LICENSE).
