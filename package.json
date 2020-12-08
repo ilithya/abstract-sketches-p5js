@@ -1,0 +1,76 @@
+{
+  "name": "abstract-sketches-with-p5js",
+  "version": "2020.11.2-17.13.49",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://codepen.io/ilithya/pen/f7617de23f81c2e97e4ca92d3376e655",
+  "scripts": {
+    "build": "gulp -f ./build/gulpfile.js --cwd ./ --continue",
+    "serve": "gulp serve -f ./build/gulpfile.js --cwd ./ --continue",
+    "task": "gulp -f ./build/gulpfile.js --cwd ./ --continue",
+    "tasks": "gulp --tasks-simple -f ./build/gulpfile.js --cwd ./ --continue"
+  },
+  "config": {
+    "srcDir": "src/",
+    "distDir": "dist/"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^4.1.1",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "gulp-inject-partials": "^1.0.5",
+    "gulp-autoprefixer": "^6.1.0"
+  },
+  "tasks": {
+    "partials": {
+      "order": 999,
+      "src": [
+        "**/*.template.html"
+      ],
+      "pipe": [
+        {
+          "require": "gulp-inject-partials",
+          "args": [
+            {
+              "removeTags": true,
+              "quiet": true,
+              "ignoreError": true
+            }
+          ]
+        }
+      ],
+      "rename": {
+        "find": ".template",
+        "replace": ""
+      },
+      "cleanup": [
+        "**/*.partial.html",
+        "**/*.template.html"
+      ]
+    },
+    "autoprefixer": {
+      "order": 999,
+      "src": [
+        "**/*.css"
+      ],
+      "pipe": [
+        {
+          "require": "gulp-autoprefixer",
+          "args": [
+            {
+              "cascade": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "browserslist": [
+    "last 5 version"
+  ]
+}
