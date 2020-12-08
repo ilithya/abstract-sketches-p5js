@@ -1,6 +1,6 @@
 # Get started with abstract sketches with p5js
 
-This is a browser-ready setup of this short tutorial.   
+This is a browser-ready setup for this short tutorial.   
 Find the original code in the [src/](./src/) folder.  
 Setup brought to you via CodePen [export build process](https://blog.codepen.io/documentation/export-with-build-process/).
 
