@@ -1,7 +1,8 @@
-# CodePen Export with Build Process
-_Transform raw code into a browser-ready preview... offline_
+# Get started with abstract sketches with p5js
 
-This package contains all of the original code ([src/](./src/)), the original in-browser preview ([/backup/dist](./backup/dist)), and a custom build script with preprocessors. You'll be able to edit and build for a local CodePen-like experience.
+This is a browser-ready preview of this short tutorial.   
+Find the original code in the ([src/](./src/)) folder.  
+Setup brought to you via CodePen [export build process](https://blog.codepen.io/documentation/export-with-build-process/).
 
 ## Installation
 
