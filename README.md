@@ -29,8 +29,8 @@ Find the code to work with here [src/script.js](./src/script.js).
 I live at [ilithya.rocks](https://www.ilithya.rocks/)
 
 **Social places**
-- [Instagram](https://www.instagram.com/ilithya_net/)
-- [Twitter](https://twitter.com/ilithya_net)
+- [Instagram](https://www.instagram.com/ilithya_rocks/)
+- [Twitter](https://twitter.com/ilithya_rocks)
 
 # License
 Read details in the [MIT LICENSE](LICENSE).
